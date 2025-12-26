@@ -66,12 +66,14 @@ To set up Google Kubernetes Engine (**GKE**), open the console of the project yo
    ```cmd
    --machine-type=e2-small
    ```
-    Creates each Kubernetes node as a small, low-cost VM type on GCP (2 vCPUs, 2 GB RAM), which is enough for this lab while keeping resource usage and cost down.
+   
+   Creates each Kubernetes node as a small, low-cost VM type on GCP (2 vCPUs, 2 GB RAM), which is enough for this lab while keeping resource usage and cost down.
   **Note**:
   ```cmd
   --disk-size=20
   ```
-    Sets the size of the boot disk for each node to 20 GB. This is per node (so 3 nodes = three 20 GB disks)
+
+  Sets the size of the boot disk for each node to 20 GB. This is per node (so 3 nodes = three 20 GB disks)
 
 
 ## Deploy MySQL using GKE:
