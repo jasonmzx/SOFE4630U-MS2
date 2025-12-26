@@ -103,7 +103,7 @@ To set up Google Kubernetes Engine (**GKE**), open the console of the project yo
       
          * **Line 4**: provides a name for the deployment.  Kubernetes will use this name to access the deployment.
       
-         * **Line 6**: indicates that only a single pod will be used.
+         * **Line 6**: indicates that only a single pod will be used.[A Pod is the smallest deployable unit in Kubernetes, wrapping one or more containers that always run together on the same node and share the same network identity and storage.]
       
          * **Line 9**: provides the name of the application that the pod will access.
       
