@@ -275,31 +275,32 @@ The sink connector is a service that automatically consumes from a topic(s) and 
          
             ![mysql_c5.jpg](figures/mysql_c5.jpg)
          
-      2. In the **connection Details**, search for **MySQL** for the **connector** type. Set the **Connection Name** to **mysql-connector** and the **Database Name** to **Readings** (check mysql-deploy.yaml). Leave everything else by its default value. Then, click **NEXT**.
+      2. In the **connection Details**, search for **MySQL** for the **connector** type. Set the **Connection Name** to **mysql-connector** and the **Database Name** to **Readings** (check mysql-deploy.yaml). Make sure that your Minimum number of nodes is set to 2 and your maximum number of nodes is set to 2. Leave everything else by its default value. Then, click **NEXT**.
 
          ![mysql_c6.jpg](figures/mysql_c6.jpg)
+         ![2-1.PNG](figures/2-1.PNG)
          
-      3. For the **destination**, set The MySQL IP address obtained in the **host 1** text box and **3306** in the **port 1** text box.
+      4. For the **destination**, set The MySQL IP address obtained in the **host 1** text box and **3306** in the **port 1** text box.
 
          ![mysql_c7.jpg](figures/mysql_c7.jpg)
          
-      4. For the credentials, set **usr** as the MySQL **Username**. For the **password**, you have to **Create New Secret**. Name it **mysql-password**. Set its value to **sofe4630u**. (MSQL username and password can be found in mysql-deploy.yaml)
+      5. For the credentials, set **usr** as the MySQL **Username**. For the **password**, you have to **Create New Secret**. Name it **mysql-password**. Set its value to **sofe4630u**. (MSQL username and password can be found in mysql-deploy.yaml)
          
          ![mysql_c8.jpg](figures/mysql_c8.jpg)
    
-      5. Grant any Necessary roles. Then Click **NEXT**.
+      6. Grant any Necessary roles. Then Click **NEXT**.
          
          ![mysql_c9.jpg](figures/mysql_c9.jpg)
 
-      6. Finally, review the summary and click **CREATE**.
-      7. Wait until the connector status changed to **Active**
-      8. Click on the newly created connector.  
+      7. Finally, review the summary and click **CREATE**.
+      8. Wait until the connector status changed to **Active**
+      9. Click on the newly created connector.  
          ![Connector Screenshot](https://github.com/user-attachments/assets/32846ca9-4b52-4686-a86c-aa89026dbdad)
       
-      9. Click **Edit**.  
+      10. Click **Edit**.  
          ![Edit Button Screenshot](https://github.com/user-attachments/assets/7e689862-aee7-4800-bb73-dce880c4ccc1)
       
-      10. Change the **Max Number of Nodes** to 2, scroll down, and click **Save**.  
+      11. Change the **Max Number of Nodes** to 2, scroll down, and click **Save**.  
           ![Max Nodes Setting Screenshot 1](https://github.com/user-attachments/assets/1383582f-dbf4-4a29-832c-22b79937c97f)  
           ![Max Nodes Setting Screenshot 2](https://github.com/user-attachments/assets/ec332c06-28f4-4fa8-8b64-ea51669ec4e2)
 
