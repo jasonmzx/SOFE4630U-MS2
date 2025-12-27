@@ -454,7 +454,7 @@ This will be similar to the MySQL. Thus, a high-level instruction is given. One 
    2. Click **CREATE NEW**
       1. Choose The location to be **northamerica-northeast2 (Toronto)**.
       2. Click **NEXT**.
-      3. Search for **Redis** for the **connector** type in the **Connection Details**. Set the **Connection Name** to **redis-connector**. Leave everything else by its default value.
+      3. Search for **Redis** for the **connector** type in the **Connection Details**. Set the **Connection Name** to **redis-connector**. Change the Maximum number of nodes to 2, similar to what we did for the MySQL connector. Leave everything else by its default value.
       4. Click **NEXT**.
       5. For the **destination**, set The Redis IP address obtained in the **host 1** text box and **6379** in the **port 1** text box.
       6. within the credentials step, select **User Password**. To create the **password**, select **Create New Secret**. Name it **redis-password** and set its value to **sofe4630u** (check the edis.yaml file).
